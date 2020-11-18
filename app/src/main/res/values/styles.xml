@@ -16,7 +16,7 @@
 
     <style name="AppTheme.AppBarOverlay">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimary">@color/yellow</item>
         <item name="colorPrimaryDark">@color/blue</item>
         <item name="colorAccent">@color/green</item>
     </style>
