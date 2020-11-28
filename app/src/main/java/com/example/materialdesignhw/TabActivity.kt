@@ -21,6 +21,7 @@ class TabActivity : AppCompatActivity() {
 
         viewPager.adapter = sectionsPagerAdapter
         tabs.setupWithViewPager(viewPager)
+        tabs.tabMode = TabLayout.MODE_SCROLLABLE
 
         fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)

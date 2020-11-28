@@ -15,5 +15,5 @@ class SectionsPagerAdapter(fm: FragmentManager) :
         return "page $position"
     }
 
-    override fun getCount() = 5
+    override fun getCount() = 10
 }

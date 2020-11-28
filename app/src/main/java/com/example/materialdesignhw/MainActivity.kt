@@ -9,8 +9,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        enterBtn.setOnClickListener {
-            val i = Intent(this,TabActivity::class.java)
+        tabBtn.setOnClickListener {
+            val i = Intent(this, TabActivity::class.java)
             startActivity(i)
         }
     }
