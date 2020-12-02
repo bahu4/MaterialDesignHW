@@ -7,6 +7,21 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppTheme.New">
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/green</item>
+        <item name="colorAccent">@color/yellow</item>
+        <item name="textAppearanceBody1">@style/MyTextStyle</item>
+    </style>
+
+    <style name="MyTextStyle">
+        <item name="colorOnSurface">@color/blue
+        </item>
+        <item name="android:textColor">@color/green</item>
+    </style>
+
+
+
     <style name="AppTheme.PopupOverlay" >
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/red</item>
